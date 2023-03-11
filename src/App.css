@@ -1,0 +1,82 @@
+
+
+.divPrincipal{
+  display: flex;
+  flex-direction: row;
+  background-color: #F0F8FF;
+  height: 150vh;
+}
+
+.divLateral{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 55%;
+  width: 17%;
+  margin-top: 70px;
+  margin-left: 100px;
+  border-radius: 25px 0 0 25px;
+  border-right: solid 2px #dcdcdc;
+}
+.meio{
+  display: flex;
+  background-color: #ebf0f4;
+  margin-top: 70px;
+  height: 55%;
+  width: 58%;
+  max-height: 62%;
+  overflow-y: scroll;
+  flex-direction: column;
+
+}
+.direita{
+  position: relative;
+  float: right;
+  background-color: #fff;
+  margin-top: 35px;
+  border-radius: 25px;
+  height: 62%;
+  width: 25%;
+  margin-right: 100px;
+  box-shadow: -15px 0 5px -5px #d3d3d2;
+}
+
+.tituloMenu{
+  font-size: 1.2rem;
+  font-weight: bold;
+ margin: 10px 0 0 25px;
+}
+
+.icone{
+  margin: 0 0 0 25px;
+}
+.menuItem {
+  margin-left: 25px;
+  font-size: 0.9rem;
+}
+
+hr{
+  width: 90%;
+  align-self: center;
+}
+.linhaCard{
+  width: 100% !important;
+  align-self: center;
+}
+
+.figura{
+  width: 20;
+  height: 20;
+}
+
+.cardMeio{
+  
+  border: solid 1px #dcdcdc ; 
+  background-color: #d3d3d3 ;
+   border-radius: 8px;
+
+}
+
+.cardDireita{
+  border : none !important;
+}
